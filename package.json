@@ -1,0 +1,24 @@
+{
+  "name": "sparktree.bandit.proxy.v2",
+  "version": "0.0.1",
+  "author": "Jason Kulatunga",
+  "description": "Bandit.io Proxy Server v2",
+  "main": "proxy",
+  "engines": {
+    "node": ">0.11.7"
+  },
+   "repository" :
+   {
+        "type" : "git",
+        "url" : "http://github.com/AnalogJ/banditio.proxy.v2.git"
+   },
+  "keywords": [
+        "http",
+        "https",
+        "proxy",
+        "mitm"
+  ],
+  "dependencies": {
+        "http-proxy": "git://github.com/nodejitsu/node-http-proxy#caronte"
+  }
+}
